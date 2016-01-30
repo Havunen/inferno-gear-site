@@ -1,0 +1,4 @@
+{
+  "presets": [ "es2015-rollup" ],
+  "plugins": ["babel-plugin-syntax-jsx", "babel-plugin-inferno", "syntax-object-rest-spread", "transform-object-rest-spread"]
+}
