@@ -1,0 +1,39 @@
+.topheader {
+  background: linear-gradient(135deg,#980000,#E80020,#980000);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+}
+
+.logo {
+  width: 10rem;
+  height: 10rem;
+  border-bottom: 2px solid #fff;
+  margin: 4rem auto 0;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin: 1rem;
+}
+
+h4 {
+  opacity: .85;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.topheader-actions {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 1rem 0;
+  list-style: none;
+}
+.topheader-action {
+  display: block;
+  margin: 1rem;
+}

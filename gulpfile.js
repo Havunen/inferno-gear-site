@@ -61,7 +61,7 @@ gulp.task('styles', function () {
     return gulp.src('src/scss/index.scss')
         .pipe(postcss(processors, {syntax: scss}))
         .pipe(size())
-        .pipe(rename('site.css'))
+        .pipe(rename('bundle.css'))
         .pipe(gulp.dest('build/css'));
 });
 
