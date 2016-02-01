@@ -43,6 +43,16 @@ cssmqpacker({
 });
 
 //
+// Configs
+//
+
+gulp.task('htaccess', function() {
+    return gulp.src('config/.htaccess')
+        .pipe(gulp.dest('build'));
+});
+
+
+//
 // Lint Scripts
 //
 
@@ -135,7 +145,7 @@ gulp.task('html', function () {
 // Watch
 //
 
-gulp.task('watch', ['html', 'styles', 'eslint', 'scripts', 'images'], function () {
+gulp.task('watch', ['html', 'styles', 'eslint', 'scripts', 'htaccess', 'images'], function () {
     function changeEvent(evt) {
         util.log(
             'File',

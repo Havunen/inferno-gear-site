@@ -1,2 +1,2 @@
-import {Inferno, InfernoDOM, Component} from './infernowrapper';
+import {Inferno, InfernoDOM} from './infernowrapper';
 import {} from './urlrouter';
